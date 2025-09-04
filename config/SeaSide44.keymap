@@ -18,7 +18,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
+        };
+
+        shifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <15 16>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
