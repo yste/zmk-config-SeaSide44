@@ -30,6 +30,16 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <15 16>;
         };
+
+        LANG-EN {
+            bindings = <&kp LANG1>;
+            key-positions = <19 20>;
+        };
+
+        LANG-JA {
+            bindings = <&kp LANG2>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
